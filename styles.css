@@ -1,0 +1,162 @@
+/******************  ELEMENT TAGS  *************************/ 
+
+body {
+    display: block;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+}
+
+hr{
+    border-top: 7px dotted;
+    width: 5%;
+    color: #11999E;
+}
+
+h1 {
+    line-height: 1.2;
+    color: hsl(281, 71%, 73%);
+    font-size: 562.5%;
+    margin: 0;
+    font-family: 'Rouge Script', cursive;
+}
+
+h2{
+    margin-bottom: 0;
+}
+h3 {
+    color: #11999E;
+    margin-top: 0;
+}
+p{
+    color: hsl(281, 71%, 73%);
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+}
+
+
+/******************* CLASS TAGs   *************************/
+
+.bottom-cloud{
+    position: absolute;
+    top:360px;
+    left:200px;
+}
+.bottom-container{
+    font-weight: 500;
+    background-color: #11999E;
+    margin-top: 10px;
+    padding: 20px;
+}    
+
+.bio{
+    text-align: center;
+    margin: 10px auto;
+    width: 29%;
+}
+.btn{
+   color: #11999E;
+}
+.buddha-img{
+    width: 29%;
+    opacity: 0.85;
+    border-radius: 50%;   
+    float: right;
+}
+.code-img{
+    width: 29%;
+    float: left;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+.footer-link{
+    color: white;
+    padding: 5px 5px 10px 5px;
+    margin: 5px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.middle-container{
+    margin: 30px auto;
+}
+.skills{
+    width: 50%;
+    margin: 37px auto 60px  auto; /*100px and 100px (if needed) */
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.top-container{
+    padding-top: 90px;
+    position: relative;
+    background-color: #f8e1f4;
+}
+
+
+
+/******************           tag.className tags         **************************/
+
+.profile h2{
+    font-size: 30px;
+    color: rgb(150, 150, 241);
+    font-family: 'Rouge Script', cursive;
+}
+.skill-row h3{
+    margin-top: 70px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.skill-row p{
+    margin-top: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.button-contact{
+    color: white;
+    text-decoration: none;
+    border: 1px; 
+    margin-top: 70px;
+    border-radius: 7%;
+    padding: 7px 12px 7px 12px;
+    background-color: rgb(97, 97, 255);
+    box-shadow: opacity: 0.5;
+}
+
+.to-solve-dikkat{
+    margin-top: 40px;
+}
+.bottom-container p{
+    text-align: center;
+    font-size: x-small;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.footer-link:hover{
+    color: skyblue;
+}
+
+
+.button-contact:hover{
+    color:skyblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
